@@ -50,7 +50,7 @@ while True:
             if unique_content != file2_content:
                 # Menulis kembali konten unik ke proxy.txt
                 write_to_file(file2, sorted(list(unique_content)))  # Menyortir jika diperlukan
-                print("Data berhasil ditulis ulang ke proxy.txt tanpa duplikat.")
+                print("Data berhasil disalin dan ditulis ulang ke proxy.txt tanpa duplikat.")
             else:
                 print("Konten proxy.txt sudah terbaru, tidak perlu pembaruan.")
 
